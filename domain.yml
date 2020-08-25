@@ -1,0 +1,36 @@
+actions:
+- utter_animo
+- utter_despedida
+- utter_ha_sido_de_ayuda
+- utter_que_deseas
+- utter_registrado
+- utter_saludo
+entities:
+- pelicula
+intents:
+- saludo
+- afirmar
+- quiero_pelicula
+- despedida
+- cantidad_asientos
+- reto_bot
+responses:
+  utter_cuantos:
+  - text: Ok cuantos asientos deseas?
+  utter_default:
+  - text: Lo siento no te entiendo.
+  utter_despedida:
+  - text: Adiós.
+  utter_ha_sido_de_ayuda:
+  - text: ¿Ha sido de ayuda?
+  utter_que_deseas:
+  - text: Que deseas hacer?.
+  utter_registrado:
+  - text: ¡Perfecto ya te he registrado a la pelicula!
+  utter_saludo:
+  - text: Hola Soy un Bot para solicitar asientos de peliculas!.
+  utter_soy_un_bot:
+  - text: Soy un bot, Rasa es mi motor.
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
