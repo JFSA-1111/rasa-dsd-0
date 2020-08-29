@@ -1,18 +1,23 @@
 actions:
-- utter_animo
+- utter_cuantos
+- utter_default
 - utter_despedida
 - utter_ha_sido_de_ayuda
 - utter_que_deseas
 - utter_registrado
 - utter_saludo
 entities:
+- alimento
+- number
 - pelicula
+- time
 intents:
-- saludo
 - afirmar
-- quiero_pelicula
 - despedida
+- quiero_pelicula
+- saludo
 - cantidad_asientos
+- no entiendo
 - reto_bot
 responses:
   utter_cuantos:

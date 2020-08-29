@@ -14,6 +14,51 @@
 - Hola
 - saludos
 - buenas tardes
+- que mas ps ome
+- hola como estas
+- holaaaa
+- Que mas
+- hello
+- que se dice
+- Q pasa
+- que se dice ps mijo
+- hi
+- ?
+- Hola ¡Tienes el monstruo ardiente?
+- hola gordo
+- que fastidio
+- Buenos días
+- Ola
+- Buenos días mi nombre es Sergio
+- Hola muy buenas tardes
+- eee q mas ps hombre
+- como estas
+- si buenas noches
+- buenas mijito
+- hay si buenas
+- aloo
+- aloooo
+- entonces
+- hablalo
+- alooo
+- alo
+- kvo
+- Que hay
+- hablamelo
+- aloooooo
+- que mas
+- oiga
+- quibo
+- kbo
+- buenas señor
+- quemas ps
+- quemasps
+- que ms
+- qbo ps
+- que hubo ps
+- que hubo
+- qmas
+- señor
 
 ## intent:despedida
 - hasta luego
@@ -28,8 +73,32 @@
 - salu2
 - bye bye
 - hasta pronto
+- perfecto
+- dos
+- si
+- chaoooo
+- clarinete
+- Perdon
+- No
+- maravilloso
+- gracias hombe
+- muy amable
+- adios mijo
+- muchas gracias muy amable
+- chaoo
+- chaooo
+- si gracias
+- vale
+- de una
+- gracias muy amable
+- melo
+- bien
+- al pelo
+- pedir una pa una movie
+- va
 
 ## intent:afirmar
+- gracias
 - si
 - sí
 - si claro
@@ -39,6 +108,38 @@
 - afirmativo
 - así es
 - sin duda
+- dos
+- tres
+- claro
+- seis
+- que bien
+- quiero dos
+- ocho
+- excelente mijo
+- serian dos
+- thanks
+- dame tres porfis
+- dame tres  tickets para la movie plis
+- tresh
+- esplendido
+- dame dos por favor
+- dame tres boleticas porfa
+- dame five
+- quiero tres
+- super
+- siete para toda mi familia
+- dame tres tickets para la movie
+- thnks
+- dame tres plis
+- Bno damw tres
+- R
+- d1
+- pueden ser dos
+- nea dame seven
+- tonces dame dos
+- dame dos
+- tres porfa
+- si dame ocho
 
 ## intent:quiero_pelicula
 - tienes asientos para la [pelicula](pelicula)?
@@ -48,11 +149,58 @@
 - [pelicula](pelicula)
 - Deseo asientos para la [pelicula](pelicula)
 - desea dos boletos para la [funcion](pelicula)
+- para la [presentacion](pelicula) de la [pelicula](pelicula)
+- hola quiero comprar unos asientos para la [pelicula](pelicula)
+- hola quiero dos entradas para la [funcion](pelicula)
+- hola quiero dos entradas para la [presentacion](pelicula)
+- hola quiero dos asientos para la [funcion](pelicula)
+- quiero asientos para la [pelicula](pelicula)
+- quiero dos asientos para la [pelicula](pelicula)
+- hola quiero dos asientos para la [pelicula](pelicula)
+- quiero dos boletas para la [pelicula](pelicula)
+- una peli
+- Una peli
+- Quiero una peli
+- quiero una peli
+- solicito tres tickets
+- requiero la [pelicula](pelicula) el mostruo ardiente
+- Tiene asientos disponibles
+- Algo
+- Cuántos asientos disponibles quedan?
+- hermanito necesito unas boletas pa la [pelicula](pelicula)
+- Películas
+- Asientos no estupido
+- Quiero saber las películas disponibles
+- Quiero saber las funciones disponibles
+- aqui es lo de las peliculas
+- pillar una cinta
+- pedir unas boleticas pa la [pelicula](pelicula)
+- ver una movie
+- ver pelis
+- dame tres boletas para la [presentacion](pelicula)
 
 ## intent:cantidad_asientos
 - quiero asientos para mi y para mi hijo
 - quiero 2 asientos
 - quiero dos asientos
+- deseo 2 asientos
+- hola quiero comprar unos asientos
+- 2
+- deseo 3 asientos
+- hola me vendes dos entradas para la presentacion
+- hola me vendes dos entradas para la [presentacion](pelicula)
+- quiero tres asientos
+- quiero comprar boletas pa mi y pa mi hijo
+- Tiene 50 asientos?
+- pedir tres boleticas mijo pa ir con la mujer y el niño
+- pedir unas boletas
+- buenas para pedir unas entradas
+- pedir nueve boleticas
+- pedir rtes
+- pedir tres pases
+- quiero pedir tres tickets
+- sisas dame 3
+- 5
 
 ## intent:reto_bot
 - Eres un robot?
@@ -60,3 +208,10 @@
 - Eres humano?
 - ¿estoy hablando con un bot?
 - estoy hablando con una persona?
+
+## intent:no entiendo
+- quiero [aguacates](alimento)
+- cuanto es uno mas uno
+- quiero naranjas con papayas
+- donde queda nutresa
+- no me entiendes?
