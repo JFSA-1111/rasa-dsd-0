@@ -140,6 +140,7 @@
 - dame dos
 - tres porfa
 - si dame ocho
+- dos tickets pa la movie
 
 ## intent:quiero_pelicula
 - tienes asientos para la [pelicula](pelicula)?
