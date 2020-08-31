@@ -59,6 +59,7 @@
 - que hubo
 - qmas
 - señor
+- holaaa como estas querido?
 
 ## intent:despedida
 - hasta luego
