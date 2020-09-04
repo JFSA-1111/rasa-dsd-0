@@ -1,4 +1,4 @@
-language: esp # your two-ltter language code
+language: esp # your two-letter language code
 
 pipeline:
   - name: SpacyNLP
