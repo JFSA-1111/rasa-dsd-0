@@ -1,4 +1,4 @@
-language: es # your two-letter language code
+language: esp # your two-letter language code
 
 pipeline:
   - name: SpacyNLP
@@ -8,7 +8,7 @@ pipeline:
   - name: LexicalSyntacticFeaturizer
   - name: "DucklingHTTPExtractor"
     # url of the running duckling server
-    url: "http://duckling:8000"
+    url: "http://localhost:8000"
     # dimensions to extract
     dimensions: ["time", "number", "amount-of-money", "distance"]
     # allows you to configure the locale, by default the language is
@@ -16,7 +16,7 @@ pipeline:
     locale: "es_CO"
     # if not set the default timezone of Duckling is going to be used
     # needed to calculate dates from relative expressions like "tomorrow"
-    timezone: "Europe/Berlin"
+    timezone: "America/Bogota"
     # Timeout for receiving response from http url of the running duckling server
     # if not set the default timeout of duckling http url is set to 3 seconds.
     timeout: 3
@@ -36,6 +36,6 @@ policies:
   - name: MemoizationPolicy
   - name: MappingPolicy
   - name: "FallbackPolicy"
-    nlu_threshold: 0.5
+    nlu_threshold: 0.8
     core_threshold: 0.3
     fallback_action_name: "action_default_fallback"

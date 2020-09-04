@@ -59,6 +59,17 @@
 - que hubo
 - qmas
 - señor
+- que hubo ps mijo
+- ombe que mas ps
+- kvo ps
+- oli
+- oliii
+- olis
+- ola
+- oiga mijo
+- hola querido
+- que ubo
+- buenas
 
 ## intent:despedida
 - hasta luego
@@ -96,6 +107,10 @@
 - al pelo
 - pedir una pa una movie
 - va
+- el año pasado
+- excelente
+- buenisimo
+- adios
 
 ## intent:afirmar
 - gracias
@@ -140,6 +155,18 @@
 - dame dos
 - tres porfa
 - si dame ocho
+- quiero tres tickets pa la movie
+- dame three please
+- dame boleticas pa mañana
+- dame boleticas para antier
+- dame two men
+- dame [par](number) de [boleticas](tickets) pa mañana
+- dame tres tickets  para la movie del año pasado
+- clarooo
+- dame tres
+- dame tickets
+- dame tres asientos porfavor
+- dame tres porfa
 
 ## intent:quiero_pelicula
 - tienes asientos para la [pelicula](pelicula)?
@@ -147,8 +174,10 @@
 - tienes asientos para la [presentacion](pelicula)?
 - asientos
 - [pelicula](pelicula)
-- Deseo asientos para la [pelicula](pelicula)
-- desea dos boletos para la [funcion](pelicula)
+- Deseo [dos](number) [asientos](tickets) para la [pelicula](pelicula)
+- Deseo [asientos](tickets) para la [movie](pelicula)
+- desea [dos](number) boletos para la [movie](pelicula)
+- desea [cuatro](number) boletos para la [funcion](pelicula)
 - para la [presentacion](pelicula) de la [pelicula](pelicula)
 - hola quiero comprar unos asientos para la [pelicula](pelicula)
 - hola quiero dos entradas para la [funcion](pelicula)
@@ -177,7 +206,12 @@
 - pedir unas boleticas pa la [pelicula](pelicula)
 - ver una movie
 - ver pelis
-- dame tres boletas para la [presentacion](pelicula)
+- dame [tres](number) boletas para la [presentacion](pelicula)
+- que hubo ps ijo tenes boleticas pa mañana
+- quiero asistir a la peli
+- quiero unas boletas para la [funcion](pelicula)
+- quiero ir a ver una [pelicula](pelicula)
+- quiero ir a ver la peli el martes
 
 ## intent:cantidad_asientos
 - quiero asientos para mi y para mi hijo
@@ -201,6 +235,11 @@
 - quiero pedir tres tickets
 - sisas dame 3
 - 5
+- dame [boleticas](tickets) pa antier
+- quiero [tickets](tickets)
+- dame [tickets](tickets)
+- dame 3
+- tres boletos
 
 ## intent:reto_bot
 - Eres un robot?
@@ -215,3 +254,6 @@
 - quiero naranjas con papayas
 - donde queda nutresa
 - no me entiendes?
+- quiero ir al baño
+- quiero ir a la iglesia
+- quiero ir a comer

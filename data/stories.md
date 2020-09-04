@@ -485,3 +485,212 @@
     - utter_ha_sido_de_ayuda
 * afirmar
     - utter_despedida
+
+## interactive_story_1
+* saludo
+
+## interactive_story_1
+* saludo
+    - utter_saludo
+    - utter_que_deseas
+* afirmar{"number": 3}
+
+## interactive_story_1
+* quiero_pelicula{"time": "2020-09-02T00:00:00.000-05:00"}
+    - utter_cuantos
+* afirmar
+
+## interactive_story_1
+* saludo
+
+## interactive_story_2
+* afirmar{"time": "2020-09-02T00:00:00.000-05:00"}
+    - utter_registrado
+    - utter_ha_sido_de_ayuda
+
+## interactive_story_1
+* afirmar{"time": "2020-08-30T00:00:00.000-05:00"}
+
+## interactive_story_1
+* saludo
+    - utter_saludo
+    - utter_que_deseas
+* cantidad_asientos{"tickets": "boleticas", "time": "2020-08-30T00:00:00.000-05:00"}
+    - utter_cuantos
+* afirmar
+
+## interactive_story_1
+* saludo
+    - utter_saludo
+    - utter_que_deseas
+* afirmar{"number": "par", "tickets": "boleticas", "time": "2020-09-02T00:00:00.000-05:00"}
+    - utter_registrado
+    - utter_ha_sido_de_ayuda
+* despedida
+
+## interactive_story_1
+* saludo
+    - utter_saludo
+    - utter_que_deseas
+
+## interactive_story_1
+* despedida{"time": "2019-01-01T00:00:00.000-05:00"}
+
+## interactive_story_1
+* saludo
+    - utter_saludo
+    - utter_que_deseas
+* afirmar{"number": 3}
+
+## interactive_story_2
+* despedida{"time": "2019-01-01T00:00:00.000-05:00"}
+
+## interactive_story_1
+* quiero_pelicula
+    - utter_cuantos
+* afirmar{"number": 3}
+    - utter_registrado
+    - utter_ha_sido_de_ayuda
+* afirmar
+
+## interactive_story_1
+* saludo
+    - utter_saludo
+    - utter_que_deseas
+* cantidad_asientos{"number": 3}
+    - utter_registrado
+    - utter_ha_sido_de_ayuda
+* despedida
+    - utter_despedida
+
+## interactive_story_1
+* saludo
+    - utter_saludo
+    - utter_que_deseas
+* cantidad_asientos{"tickets": "tickets"}
+    - utter_cuantos
+* afirmar{"number": 3}
+    - utter_registrado
+    - utter_ha_sido_de_ayuda
+* despedida
+    - utter_despedida
+
+## interactive_story_1
+* saludo
+    - utter_saludo
+    - utter_que_deseas
+* cantidad_asientos{"tickets": "tickets"}
+    - utter_cuantos
+* afirmar{"number": 3}
+    - utter_registrado
+    - utter_ha_sido_de_ayuda
+* despedida
+    - utter_despedida
+
+## interactive_story_1
+* saludo
+    - utter_saludo
+    - utter_que_deseas
+* afirmar
+
+## interactive_story_2
+* saludo
+    - utter_saludo
+    - utter_que_deseas
+* afirmar
+
+## interactive_story_3
+* saludo
+    - utter_saludo
+    - utter_que_deseas
+* cantidad_asientos{"tickets": "tickets"}
+    - utter_cuantos
+* cantidad_asientos{"number": 3}
+    - utter_registrado
+    - utter_ha_sido_de_ayuda
+* despedida
+    - utter_despedida
+
+## interactive_story_1
+* saludo
+    - utter_saludo
+    - utter_que_deseas
+* quiero_pelicula{"pelicula": "funcion"}
+    - utter_cuantos
+* afirmar{"number": 3}
+    - utter_registrado
+    - utter_ha_sido_de_ayuda
+* despedida
+    - utter_despedida
+
+## interactive_story_1
+* saludo
+    - utter_saludo
+    - utter_que_deseas
+* afirmar{"number": 3}
+    - utter_registrado
+    - utter_ha_sido_de_ayuda
+* despedida
+    - utter_despedida
+    - utter_registrado
+
+## interactive_story_1
+* saludo
+    - utter_saludo
+    - utter_que_deseas
+    - utter_despedida
+
+## interactive_story_1
+* saludo
+    - utter_saludo
+    - utter_que_deseas
+* no entiendo
+    - utter_default
+* no entiendo
+    - utter_default
+* no entiendo
+    - utter_default
+
+## interactive_story_1
+* saludo
+    - utter_saludo
+    - utter_que_deseas
+* no entiendo
+    - utter_default
+
+## interactive_story_1
+* saludo
+    - utter_saludo
+    - utter_que_deseas
+* no entiendo
+    - utter_default
+
+## interactive_story_1
+* saludo
+    - utter_saludo
+    - utter_que_deseas
+* no entiendo
+    - utter_default
+
+## interactive_story_1
+* saludo
+    - utter_saludo
+    - utter_que_deseas
+* no entiendo
+    - utter_default
+
+## interactive_story_1
+* saludo
+    - utter_saludo
+    - utter_que_deseas
+* quiero_pelicula{"number": 1, "pelicula": "pelicula"}
+    - utter_cuantos
+* afirmar{"number": 3}
+    - utter_registrado
+
+## interactive_story_1
+    - utter_registrado
+    - utter_ha_sido_de_ayuda
+* afirmar
+    - utter_despedida
+* despedida

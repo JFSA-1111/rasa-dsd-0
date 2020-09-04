@@ -10,13 +10,14 @@ entities:
 - alimento
 - number
 - pelicula
+- tickets
 - time
 intents:
-- afirmar
-- despedida
 - quiero_pelicula
-- saludo
 - cantidad_asientos
+- despedida
+- afirmar
+- saludo
 - no entiendo
 - reto_bot
 responses:
@@ -38,4 +39,4 @@ responses:
   - text: Soy un bot, Rasa es mi motor.
 session_config:
   carry_over_slots_to_new_session: true
-  session_expiration_time: 60
+  session_expiration_time: 1
