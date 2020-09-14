@@ -1,41 +1,38 @@
-language: esp # your two-letter language code
-
+language: es
 pipeline:
-  - name: SpacyNLP
-  - name: SpacyTokenizer
-  - name: SpacyFeaturizer
-  - name: RegexFeaturizer
-  - name: LexicalSyntacticFeaturizer
-  - name: "DucklingHTTPExtractor"
-    # url of the running duckling server
-    url: "http://localhost:8000"
-    # dimensions to extract
-    dimensions: ["time", "number", "amount-of-money", "distance"]
-    # allows you to configure the locale, by default the language is
-    # used
-    locale: "es_CO"
-    # if not set the default timezone of Duckling is going to be used
-    # needed to calculate dates from relative expressions like "tomorrow"
-    timezone: "America/Bogota"
-    # Timeout for receiving response from http url of the running duckling server
-    # if not set the default timeout of duckling http url is set to 3 seconds.
-    timeout: 3
-  - name: CountVectorsFeaturizer
-  - name: CountVectorsFeaturizer
-    analyzer: "char_wb"
-    min_ngram: 1
-    max_ngram: 4
-  - name: DIETClassifier
-    epochs: 100
-  - name: EntitySynonymMapper
-  - name: ResponseSelector
-    epochs: 100
-
+- name: HFTransformersNLP
+  model_weights: "bert-base-multilingual-cased"
+  model_name: "bert"
+- name: LanguageModelTokenizer
+- name: LanguageModelFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: char_wb
+  min_ngram: 1
+  max_ngram: 4
+- name: CountVectorsFeaturizer
+- name: DIETClassifier
+  epochs: 30
+  number_of_transformer_layers: 4
+  transformer_size: 256
+  use_masked_language_model: True
+  drop_rate: 0.25
+  weight_sparsity: 0.7
+  batch_size: [64, 256]
+  embedding_dimension: 30
+  hidden_layer_sizes:
+    text: [512, 128]
+- name: EntitySynonymMapper
 policies:
-  - name: TEDPolicy
-  - name: MemoizationPolicy
-  - name: MappingPolicy
-  - name: "FallbackPolicy"
-    nlu_threshold: 0.8
-    core_threshold: 0.3
-    fallback_action_name: "action_default_fallback"
+- name: EmbeddingPolicy
+  max_history: 10
+  epochs: 20
+  batch_size:
+  - 32
+  - 64
+- max_history: 6
+  name: AugmentedMemoizationPolicy
+- core_threshold: 0.3
+  name: TwoStageFallbackPolicy
+  nlu_threshold: 0.8
+- name: FormPolicy
+- name: MappingPolicy
